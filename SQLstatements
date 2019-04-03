@@ -1,0 +1,18 @@
+for classes
+
+INSERT INTO classes VALUES ('java','B230','MON_AM','1103');
+INSERT INTO classes VALUES ('Csharp','B122','TUE_PM','1247');
+INSERT INTO classes VALUES ('math','A506','WED_EV','1389');
+INSERT INTO classes VALUES ('Database','B123','THU_PM','1455');
+INSERT INTO classes VALUES ('ProjMgt','B125','FRI_PM','1203');
+INSERT INTO classes VALUES ('EmergTech','B122','FRI_EV','1158');
+INSERT INTO classes VALUES ('Csharp','B125','FRI_PM','1451');
+INSERT INTO classes VALUES ('math','B111','WED_AM','1673');
+
+
+for students
+
+INSERT INTO students VALUES ('101', 'mary' );
+INSERT INTO students VALUES ('102', 'bill');
+INSERT INTO students VALUES ('103', 'susan' );
+INSERT INTO students VALUES ('104', 'karen');
