@@ -16,3 +16,8 @@ INSERT INTO students VALUES ('101', 'mary' );
 INSERT INTO students VALUES ('102', 'bill');
 INSERT INTO students VALUES ('103', 'susan' );
 INSERT INTO students VALUES ('104', 'karen');
+
+
+select students.studentNmae, students.studentID, classes.classNmae, clasees.roomNmae, classDateTime, classes.classID
+from students, classes, enrollment
+where students.studentId=enrollments.studentID and classes.classID=classID
